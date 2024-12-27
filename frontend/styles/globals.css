@@ -1,0 +1,96 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+/* styles/globals.css */
+body {
+  font-family: 'Arial', sans-serif;
+  background-color: #f7fafc;
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  width: 80%;
+  margin: 0 auto;
+}
+
+h1, h2, h3 {
+  font-family: 'Roboto', sans-serif;
+}
+
+button {
+  background-color: #0070f3;
+  color: white;
+  padding: 12px 20px;
+  border-radius: 4px;
+  border: none;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+button:hover {
+  background-color: #005bb5;
+}
+
+input[type="text"], input[type="password"] {
+  padding: 10px;
+  border: 2px solid #ddd;
+  border-radius: 4px;
+  width: 100%;
+}
+
+input[type="text"]:focus, input[type="password"]:focus {
+  border-color: #0070f3;
+  outline: none;
+}
+
+form {
+  max-width: 400px;
+  margin: 0 auto;
+}
+
+.card {
+  background-color: #ffffff;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.text-center {
+  text-align: center;
+}
+
+.text-gray-600 {
+  color: #4a5568;
+}
+
+.text-blue-600 {
+  color: #3182ce;
+}
+/* styles/globals.css */
+
+.input-field {
+  padding: 10px;
+  border: 2px solid #ddd;
+  border-radius: 4px;
+  width: 100%;
+}
+
+.input-field:focus {
+  border-color: #0070f3;
+  outline: none;
+}
+
+.btn-submit {
+  background-color: #0070f3;
+  color: white;
+  padding: 12px 20px;
+  border-radius: 4px;
+  width: 100%;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.btn-submit:hover {
+  background-color: #005bb5;
+}
