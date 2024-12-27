@@ -11,5 +11,6 @@ row query
 in specfic folder  
 for frontend : use frontend
 for backend : social-media-backend
+migrate database also 
 node modules download 
 then use npm start
